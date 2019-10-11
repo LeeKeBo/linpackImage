@@ -1,6 +1,6 @@
 #docker linpack配置镜像，需先在Redhat官网获取Redhat镜像包
 
-FROM 40e 
+FROM rhel7.7 
 MAINTAINER lkb xxx@qq.com
 
 #修改源，安装所需依赖
